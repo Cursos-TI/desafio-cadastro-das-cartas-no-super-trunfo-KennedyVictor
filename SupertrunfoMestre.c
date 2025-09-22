@@ -16,10 +16,10 @@
         printf("=================================\n");       
         printf("Carta 1!\n\n");
 
-        printf("Digite a Letra do Estado: \n");
-        scanf(" %c", &estado1);
+        printf("Digite a Letra do Estado(Uma letra 'A' a 'H'): \n");
+        scanf(" %c", &estado1); //ESPAÇO ANTES DO %c PARA EVITAR BUGS COM \n
 
-        printf("Digite o Código da Carta: \n");
+        printf("Digite o Código da Carta(ex: A01, B01): \n");
         scanf(" %c", codigo_da_carta1);
 
         printf("Digite o Nome da Cidade: \n");
@@ -51,10 +51,10 @@
         printf("=================================\n");        
         printf("Carta 2!\n\n");
 
-        printf("Digite a Letra do Estado: \n");
+        printf("Digite a Letra do Estado(Uma letra 'A' a 'H'): \n");
         scanf(" %c", &estado2);                 //ESPAÇO ANTES DO %c PARA EVITAR BUGS COM \n
         
-        printf("Digite o Código da Carta: \n");
+        printf("Digite o Código da Carta(ex: A01, B01): \n");
         scanf("%s", codigo_da_carta2);
 
         printf("Digite o Nome da Cidade: \n");
@@ -125,5 +125,6 @@
         printf("Super Poder: Carta Vencedora %d \n\n", (superpoder1 > superpoder2));
 
     return 0;
+
 
     }
