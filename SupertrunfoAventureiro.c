@@ -17,7 +17,7 @@
         printf("Carta 1!\n\n");
 
         printf("Digite a Letra do Estado(Uma letra 'A' a 'H'): \n");
-        scanf(" %c", &estado1);
+        scanf(" %c", &estado1);  //ESPAÇO ANTES DO %c PARA EVITAR BUGS COM \n
 
         printf("Digite o Código da Carta(ex: A01, B01): \n");
         scanf("%s", codigo_da_carta1);
@@ -115,3 +115,4 @@
     return 0;
 
     }
+
