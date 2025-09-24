@@ -4,7 +4,7 @@
         //VARIAVEIS
 
         char estado1, estado2;
-        char codigo_da_carta1, codigo_da_carta2[50];
+        char codigo_da_carta1[50], codigo_da_carta2[50];
         char nome_da_cidade1[50], nome_da_cidade2[50];
         unsigned long int populacao1, populacao2;
         int pontos_turisticos1, pontos_turisticos2;
@@ -20,7 +20,7 @@
         scanf(" %c", &estado1); //ESPAÇO ANTES DO %c PARA EVITAR BUGS COM \n
 
         printf("Digite o Código da Carta(ex: A01, B01): \n");
-        scanf(" %c", codigo_da_carta1);
+        scanf("%s", codigo_da_carta1);
 
         printf("Digite o Nome da Cidade: \n");
         scanf("%s", nome_da_cidade1);
@@ -128,3 +128,4 @@
 
 
     }
+
